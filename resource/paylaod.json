@@ -1,0 +1,43 @@
+// attribute
+{
+    "event_type": "CLICK",
+    "item_type": "AD" // [AD, OG]
+}
+
+// payload
+{
+    "request_id": "",
+    "event_id": "",
+    "event_time": "2025-01-01T00:00:00+07",
+    "event_type": "CLICK", // [CLICK, IMPRESSION, ORDER]
+    "event_name": "CLICK_PRODUCT",
+    "detail": {
+        "item": {
+            "id": "1",
+            "type": "AD",
+            "category": "PRODUCT_CARD"
+        }
+    },
+    "idetity": {
+        "device_id": "",
+        "ip_address": "",
+        "user_agent": "",
+        "session_id": "",
+        "cookie": "",
+        "location": {
+            "country": "US",
+            "city": "New York",
+            "latitude": 40.7128,
+            "longitude": -74.0060
+        }
+    },
+    "source": {
+        "domain_name": "FASTWORK",
+        "type": "APP", // [APP, WEBSITE]
+        "page": "HOME",
+        "section": "",
+        "browser": "",
+        "app_version": "",
+        "url": ""
+    }
+}
