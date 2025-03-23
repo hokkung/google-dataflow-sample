@@ -1,2 +1,2 @@
 google-cloud-pubsub==2.28.0
-apache-beam==2.63.0
+apache-beam[gcp]==2.63.0
